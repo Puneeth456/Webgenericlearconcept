@@ -13,3 +13,4 @@ class Login(Webgeneric):
         wg.enter(self.pwd_name,pwd)
         wg.submit(self.login_btn_xpath)
 
+# this all about the webgneeric part

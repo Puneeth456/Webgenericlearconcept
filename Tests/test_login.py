@@ -1,6 +1,8 @@
-from Pages.LoginPage import Login
-from Data.Testdata import *
 import pytest
+
+from Data.Testdata import *
+from Pages.LoginPage import Login
+
 
 @pytest.mark.usefixtures("test_setup")
 class Testloginpage():
